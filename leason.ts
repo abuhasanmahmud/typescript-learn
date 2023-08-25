@@ -25,11 +25,33 @@
 
 //union type
 
-let userId: string | number;
-(userId = "aldkfal"), (userId = 44);
+// let userId: string | number;
+// (userId = "aldkfal"), (userId = 44);
 
-function userInfo(userName: number | string, userId: number) {
-  console.log(userId, userName);
-}
+// function userInfo(userName: number | string, userId: number) {
+//   console.log(userId, userName);
+// }
 
-userInfo("mahmud", 22);
+// userInfo("mahmud", 22);
+
+// let allUser: Array<string>;
+// allUser = ["m", "n", "ralkdj"];
+// console.log(allUser);
+
+// enum requestype {
+//   readData = "read data",
+//   saveData = "saveData",
+// }
+
+// console.log(requestype["readData"]);
+
+//object data
+
+let users: Object[];
+users = [];
+let user1: { userName: String; userId: Number };
+user1 = { userName: "mahmud", userId: 33 };
+
+users.push(user1);
+
+console.log(users);
