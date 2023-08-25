@@ -4,10 +4,20 @@
 // }
 // addNumbers(20, 30);
 //leason 2
-var userId = 20;
-var firstName = "abu hasan ";
-var lastName = "mahmud";
-var fullName = firstName.concat(lastName);
+// let userId: number = 20;
+// let firstName: string = "abu hasan ";
+// let lastName: string = "mahmud";
+// let fullName = firstName.concat(lastName);
 // console.log(fullName.split(" "));
-var fulnameArray = firstName.split(" ");
-fulnameArray.map(function (name) { return console.log(name); });
+// let fulnameArray = firstName.split(" ");
+// fulnameArray.map((name) => console.log(name));
+// function multiplyTwoNumber(Number1, Number2) {
+//   return Number1 * Number2;
+// }
+//union type
+var userId;
+(userId = "aldkfal"), (userId = 44);
+function userInfo(userName, userId) {
+    console.log(userId, userName);
+}
+userInfo("mahmud", 22);
