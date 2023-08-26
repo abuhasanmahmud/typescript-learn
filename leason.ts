@@ -47,11 +47,28 @@
 
 //object data
 
-let users: Object[];
+// let users: Object[];
+// users = [];
+// let user1: { userName: String; userId: Number | string };
+// user1 = { userName: "mahmud", userId: "33" };
+
+// users.push(user1);
+
+// // console.log(users);
+
+// let user2: {};
+// user2 = { name: "hasa", id: 33 };
+// users.push(user2);
+// console.log(users);
+
+type user = { userName: String; userId: Number };
+
+let users: user[];
 users = [];
-let user1: { userName: String; userId: Number };
+let user1: user;
+let user2: user;
+
 user1 = { userName: "mahmud", userId: 33 };
+user2 = { userName: "hasan", userId: 55 };
 
-users.push(user1);
-
-console.log(users);
+users.push(user1, user2);
